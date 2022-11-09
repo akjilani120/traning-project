@@ -32,6 +32,7 @@
     padding: 5px;
     margin-right: 15px;
 }
+
 .logo-img{
     width: 80px;
     height: 50px;
@@ -41,9 +42,41 @@
     border-right:2px solid white ;
     padding: 0px 15px;
     font-size: 18px;
+    cursor: pointer;
+}
+.details-items:hover{
+    background-color: white;
+    color: #8D0000;
+    border-radius: 5px;
 }
 .home-details , .time-details {
     border: none;
 }
 
 /* header part over*/
+/* Banner Part Start */
+.banner-main{
+    position: relative;
+}
+.banner-overflow{
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.678);
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+}
+.slide-img{
+    height: 550px;
+    
+}
+.banner-title{
+    font-size: 55px;
+}
+.banner-motor{
+    font-size: 70px;
+    font-weight: 700;
+    margin-top: 50px;
+    font-family: 'Times New Roman', Times, serif;
+}
+/* Banner Part Over */

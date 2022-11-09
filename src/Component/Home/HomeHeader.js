@@ -6,8 +6,8 @@ import { faPhone, faHouse, faClock } from '@fortawesome/free-solid-svg-icons'
 const HomeHeader = () => {
     return (
         <div>
-            <div className="header-title-part">
-                <marquee className="title-name" behavior="alternate" direction="right">Anjuli Automobiles Pvt. Ltd. <span> - 8750270991,
+            <div className="header-title-part px-3">
+                <marquee className="title-name " behavior="alternate" direction="right">Anjuli Automobiles Pvt. Ltd. <span> - 8750270991,
                     9873580735</span></marquee>
             </div>
             <div className="header-details-part">
