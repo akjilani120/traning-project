@@ -10,7 +10,7 @@
     color: white;
 }
 .title-name{
-    font-size: 28px;
+    font-size: 25px;
     font-weight: 500;
     color: white;
     margin: 12px auto;
@@ -80,3 +80,45 @@
     font-family: 'Times New Roman', Times, serif;
 }
 /* Banner Part Over */
+/* Good Fermance part start */
+.good-header h2{
+ color: #E83619;
+ font-size: 25px;
+ text-transform: uppercase;
+ font-family: Arial, Helvetica, sans-serif;
+ font-weight: 700;
+ margin-top: 40px;
+}
+.good-header h1{
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    text-transform: capitalize;
+}
+.goodFarmence-card{
+    text-align: center;
+   background-color: #F8F8F8;
+   
+}
+.good-card-title{
+    font-weight: 500;
+}
+.card-about-text{
+    font-size: 14px;
+}
+/* Good Fermance part over */
+/* Categorius part start */
+.categorious-main{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 550px;
+    clip-path: polygon(50% 0%, 100% 0, 100% 80%, 26% 100%, 26% 100%, 0 89%, 0 0);
+}
+.categorious-overflow{
+    background-color: rgba(0, 0, 0, 0.534);
+    color: white;
+    height: 1000%;
+}
+
+/* Categorius part over */
