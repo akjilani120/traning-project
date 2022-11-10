@@ -112,13 +112,51 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    height: 550px;
+    height: 650px;
     clip-path: polygon(50% 0%, 100% 0, 100% 80%, 26% 100%, 26% 100%, 0 89%, 0 0);
 }
 .categorious-overflow{
-    background-color: rgba(0, 0, 0, 0.534);
+    background-color: rgba(0, 0, 0, 0.658);
     color: white;
-    height: 1000%;
+    height: 100%;
 }
-
+.cate-card{
+    margin: 10px  ;
+    padding: 15px;
+    width: 90%;
+    background-color: #fdf6f6;
+    border-bottom: 5px solid #E63619;
+    color: #E63619;
+    cursor: pointer;
+    
+}
+.cate-card-img{
+    width: 80%;
+    opacity: .4;
+}
+.cate-card-title{
+    font-weight: 600;
+    font-size: 22px;
+    text-transform: uppercase;
+    margin: 10px;
+}
+.cate-card:hover{
+    background-color: #E63619;
+    color: white;
+}
+.cate-card:hover .cate-card-img{
+    opacity: .7;
+}
+.cate-icon{
+    font-size: 25px;
+    font-weight: 600;
+    transition: 400ms;
+}
+.cate-expore{
+    font-size: 20px;
+    font-weight: 500;
+}
+.cate-card:hover .cate-icon{
+    transform: rotate(180deg);
+}
 /* Categorius part over */
