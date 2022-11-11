@@ -8,7 +8,7 @@ const CategoriusCart = () => {
     }}>
       <div className="categorious-overflow ">
         <div className=''>
-          <div className="row py-5 ">
+          <div className="row pb-5 ">
             <div className="col-md-3 col-lg-3 ">
               <div className="card cate-card">
                 <p className='cate-card-title'>SPORTBIKE</p>

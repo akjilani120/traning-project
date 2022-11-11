@@ -112,16 +112,17 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    height: 650px;
+   
     clip-path: polygon(50% 0%, 100% 0, 100% 80%, 26% 100%, 26% 100%, 0 89%, 0 0);
 }
 .categorious-overflow{
     background-color: rgba(0, 0, 0, 0.658);
     color: white;
     height: 100%;
+    padding: 50px 0px;
 }
 .cate-card{
-    margin: 10px  ;
+    margin: 5px  ;
     padding: 15px;
     width: 90%;
     background-color: #fdf6f6;
@@ -241,3 +242,77 @@
     border: none;
 }
 /* Feature part over */
+/* Above part start */
+.above-main{
+    background-size: cover;
+    background-position:  cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    background-attachment: fixed;
+}
+.above-overflow{
+    background-color: rgba(0, 0, 0, 0.692);
+    color: white;
+    height: 100%;
+    padding: 120px 5px;
+}
+.above-hightligt{
+    font-weight: 700;
+    color: #cf0a0a;
+    font-size: 20px;
+}
+.above-title{
+    font-size: 43px;
+    font-weight: 700;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    
+}
+.above-details{
+   color: #fdf6f6;
+    line-height: 28px;
+}
+.above-icon{
+    font-size: 100px;
+    opacity: .8;
+}
+.above-mission-main{
+    padding-left:30px ;
+    border-left: 4px solid #d30c0c;
+    margin-left: 50px;
+}
+/* Above part over */
+/* Show Motors star */
+.show-details-img-main{
+ background-color: white;
+ border-radius: 50%;
+ padding: 8px;
+}
+.show-details-img-main img{
+    width: 40px;
+    height: 40px;
+}
+.show-motors-main{
+    padding-top: 80px ;
+    padding-bottom: 50px;
+    background-color: #ece3e39c;
+    
+}
+.show-details h5{
+ color: #cf0a0a;
+ margin: 20px auto;
+ font-weight: 600;
+}
+.show-details h3{
+    font-weight: 700;
+    margin-bottom: 30px;
+    font-size: 40px;
+}
+.show-side-img{
+    width: 80%;
+    transition: 400ms;
+}
+.show-side-img:hover{
+    transform: scale(1.1);
+}
+/* Show Motors over */
