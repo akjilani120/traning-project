@@ -23,7 +23,7 @@ const FeaturesRow = ({moto}) => {
                       </div>
                    </div>
                    <div>
-                    <ul className='d-md-flex justify-content-around align-items-center mt-3'>
+                    <ul className='d-flex justify-content-around align-items-center mt-3 fea-unorder'>
                         <li>
                            <h6 className='m-0 p-0'>YEAR</h6>
                            <p className='m-0 p-0'>{year}</p>
@@ -38,23 +38,23 @@ const FeaturesRow = ({moto}) => {
                         </li>
                     </ul>
                    </div>
-                   <div className='d-md-flex justify-content-around align-items-center'>
+                   <div className='d-flex justify-content-around align-items-center text-center'>
                     <div>
-                    <p className='m-0 p-0'>Engine Type</p>
+                    <h6 className='m-0 p-0'>Engine Type</h6>
                      <p className='m-0 p-0'>{engine}</p>
                     </div>
                     <div>
-                    <p className='m-0 p-0'>Engine Power</p>
+                    <h6 className='m-0 p-0'>Engine Power</h6>
                      <p className='m-0 p-0'>{power}</p>
                     </div>
                    </div>
-                   <div className='d-flex justify-content-around align-items-center'>
+                   <div className='d-flex justify-content-around align-items-center mt-3 text-center'>
                     <div>
-                    <p className='m-0 p-0'>Displacement</p>
+                    <h6 className='m-0 p-0'>Displacement</h6>
                      <p className='m-0 p-0'>{dipla}</p>
                     </div>
                     <div>
-                    <p className='m-0 p-0'>Bores/ Stroke</p>
+                    <h6 className='m-0 p-0'>Bores/ Stroke</h6>
                      <p className='m-0 p-0'>{bore}</p>
                     </div>
                    </div>

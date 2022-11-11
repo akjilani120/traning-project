@@ -229,4 +229,15 @@
     display: flex;
 
 }
+.fea-unorder{
+    list-style: none;
+}
+
+.fea-unorder li{
+    border-left: 2px solid silver;
+    padding: 0px 25px;
+}
+.fea-unorder li:nth-child(1){
+    border: none;
+}
 /* Feature part over */

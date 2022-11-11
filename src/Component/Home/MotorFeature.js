@@ -20,7 +20,7 @@ const MotorFeature = () => {
                 </div>
             </div>
             <div className="container mt-5">
-                <Row xs={1} md={2} lg={3} className="g-3">
+                <Row xs={1} md={2} lg={3} className="g-4">
                     {
                         motos.map(moto => <FeaturesRow moto={moto} key={moto.id} />)
                     }
