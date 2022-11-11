@@ -316,3 +316,35 @@
     transform: scale(1.1);
 }
 /* Show Motors over */
+/* Footer part start */
+.footer-main{
+    padding: 40px 10px;
+    background-color: rgba(0, 0, 0, 0.925);
+    color: white;
+    
+}
+.footer-logo-main{
+    width: 130px;
+    height: 130px;
+    background-color: white;
+    border-radius: 50%;
+    text-align: center;
+}
+.footer-logo{
+    width: 90%;
+    height: 120px;
+}
+.footer-items ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.footer-items ul li{
+    margin-top: 5px;
+    padding: 5px;
+}
+.photo-stream-show{
+    width: 100%;
+    height: 60px;
+}
+/* Footer part over */

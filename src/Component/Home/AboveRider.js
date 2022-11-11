@@ -1,6 +1,6 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faQuoteRight, faStar,  } from '@fortawesome/free-solid-svg-icons'
+import { faQuoteRight,  } from '@fortawesome/free-solid-svg-icons'
 const AboveRider = () => {
     return (
         <div className='above-main' style={{

@@ -14,7 +14,7 @@ const ShowMotors = () => {
                             <h3>A STEP ABOVE WITH
                                 RIDER-FRIENDLY NATURE</h3>
                             <p>The content of the template can be changed very easily without coding skills in order to show your latest bikes or any other moto-related products, news, or events</p>
-                            <div className="show-details-footer mt-4 d-md-flex justify-content-center">
+                            <div className="show-details-footer mt-5 d-md-flex justify-content-center ">
                                 <div className="show-details-items d-flex mt-md-0 mt-2 aling-items-center">
                                     <div className='show-details-img-main'>
                                         <img src="https://cdn-icons-png.flaticon.com/512/2417/2417117.png" alt="" />
