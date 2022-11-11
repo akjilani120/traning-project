@@ -4,6 +4,7 @@ import CategoriusCart from './CategoriusCart';
 import GoodFarmance from './GoodFarmance';
 import './Home.css'
 import HomeHeader from './HomeHeader';
+import MotorFeature from './MotorFeature';
 const Home = () => {
     return (
         <div>
@@ -11,6 +12,7 @@ const Home = () => {
             <Banner/>
             <GoodFarmance/>
             <CategoriusCart/>
+            <MotorFeature/>
         </div>
     );
 };

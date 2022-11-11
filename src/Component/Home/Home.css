@@ -160,3 +160,73 @@
     transform: rotate(180deg);
 }
 /* Categorius part over */
+/* Feature part start */
+.features-main{
+    margin: 100px auto;
+}
+.feu-lev{
+    color: #E83619;
+    font-weight: 500;
+}
+.feu-title{
+    font-size: 50px;
+    font-weight: 700;
+}
+.fea-logo{
+    width: 150px;
+}
+.feu-details{
+    font-size: 18px;
+    line-height: 25px;
+    opacity: .9;
+    margin-top: 20px;
+}
+.fea-card{
+    border: none;
+    background-color: whitesmoke;
+    cursor: pointer;
+    
+}
+.fea-card:hover{
+    background-color: white;
+    box-shadow: 0px 5px 15px silver;
+}
+.fea-card-header{
+    padding: 30px 5px;
+}
+.fea-card-header h4{
+    font-weight: 500;
+    font-size: 22px;
+}
+.fea-card-header h5{
+    color: #E63619;
+    font-size: 22px;
+}
+.fea-card-img{
+    width: 100%;
+    height: 300px;
+    border-radius: 5px;
+}
+.feat-img-main{
+    background-color: silver;
+    padding: 15px 0px;
+    position: relative;
+}
+.feat-img-main-overlay{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.575);
+    color: white;
+    width: 100%;
+    display: none;
+}
+.fea-img-icon{
+    font-size: 50px;
+    font-weight: 100;
+}
+.fea-card:hover .feat-img-main-overlay{
+    display: flex;
+
+}
+/* Feature part over */
