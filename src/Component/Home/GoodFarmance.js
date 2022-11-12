@@ -8,7 +8,7 @@ const GoodFarmance = () => {
             <div className="container">
                 <div className="good-header text-center">
                     <h2> Taking Tides To A newer Level</h2>
-                    <h1>GREAT PERFORMANCE THAT <br />
+                    <h1>GREAT PERFORMANCE THAT <br className='d-none d-lg-block'/>
                         MATTERS IN FUTURE</h1>
                 </div>
                 <div className="row mt-5">
