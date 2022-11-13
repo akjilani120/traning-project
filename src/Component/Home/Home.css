@@ -316,6 +316,17 @@
     transform: scale(1.1);
 }
 /* Show Motors over */
+/* More Motors part start */
+.show-car-body{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.car-img{
+    height: 250px;
+    width: 220px;
+}
+/* More Motors part over */
 /* Footer part start */
 .footer-main{
     padding: 40px 10px;

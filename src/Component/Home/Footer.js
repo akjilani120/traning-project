@@ -7,7 +7,7 @@ const Footer = () => {
         <div className='footer-main'>
             <div className="container">
                 <div className="row">
-                    <div className="col-md-2 col-lg-3">
+                    <div className="col-md-6 col-lg-3">
                         <div className="footer-items">
                            <div className='footer-logo-main'>
                            <img className='footer-logo' src={logo} alt="" />
@@ -17,7 +17,7 @@ const Footer = () => {
                             </p>
                         </div>
                     </div>
-                    <div className="col-md-2 col-lg-3">
+                    <div className="col-md-6 col-lg-3">
                         <div className="footer-items">
                             <h5>Products</h5>
                             <ul>
@@ -28,7 +28,7 @@ const Footer = () => {
                             </ul>
                         </div>
                     </div>
-                    <div className="col-md-2 col-lg-3">
+                    <div className="col-md-6 col-lg-3">
                     <div className="footer-items">
                             <h5>Contact</h5>
                             <ul>
@@ -39,7 +39,7 @@ const Footer = () => {
                             </ul>
                         </div>
                     </div>
-                    <div className="col-md-2 col-lg-3">
+                    <div className="col-md-6 col-lg-3">
                        <div className="footer-items">
                        <h5>Photo Stream</h5>
                         <div className="d-flex photo-stream-show">

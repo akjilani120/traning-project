@@ -6,6 +6,7 @@ import Footer from './Footer';
 import GoodFarmance from './GoodFarmance';
 import './Home.css'
 import HomeHeader from './HomeHeader';
+import MoreMotors from './MoreMotors';
 import MotorFeature from './MotorFeature';
 import ShowMotors from './ShowMotors';
 const Home = () => {
@@ -18,6 +19,7 @@ const Home = () => {
             <MotorFeature/>
             <AboveRider/>
             <ShowMotors/>
+            <MoreMotors/>
             <Footer/>
         </div>
     );
